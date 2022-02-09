@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) {
+	body {
+		font-size:70%; 
+                /* Reducimos al 80% los textos en pantallas inferiores a 1000px  */
+	}
+}
 
 /* ESTRUCTURA DE INDEX.HTML */
 * {
@@ -55,7 +61,7 @@ footer{
 
 footer ul{
     margin-left: 77vw;
-    margin-bottom: -90px;
+    margin-bottom: -80px;
 }
 footer div{
     margin-left: 40vw;
@@ -79,6 +85,10 @@ footer div{
     padding-top: 30px;
 }
 
+.Carruseles{
+    width: 100%;
+    height: 100%;
+}
 
 .Carruseles img {
     margin-left: 1vw;
