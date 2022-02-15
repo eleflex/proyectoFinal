@@ -1,265 +1,197 @@
-@media screen and (max-width: 767px) {
-	body {
-		font-size:70%; 
-                /* Reducimos al 80% los textos en pantallas inferiores a 1000px  */
-	}
-}
-
 /* ESTRUCTURA DE INDEX.HTML */
 * {
-    margin: 0;
-    padding: 0;
-}
-body{
-    width: 100%;
-    height: 80vh;
-}
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 80vh; }
 
 header {
-    background-color: #c6f3f5d0;
-    width: 100%;
-    height: 15vh;
-}
+  background-color: #c6f3f5d0;
+  width: 100%;
+  height: 15vh; }
 
 main {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
 .Direccionadores {
-    margin-left: 50vw;
-}
-.Direccionadores li {
+  margin-left: 50vw; }
+  .Direccionadores li {
     display: inline;
     padding-left: 30px;
-    padding-top: 30px;
-}
+    padding-top: 30px; }
 
 .NuestroTrabajo {
-    background-color: rgb(248, 248, 108);
-}
+  background-color: #f8f86c; }
+  .NuestroTrabajo td {
+    padding: 5vw; }
 
-.NuestroTrabajo td{
-    padding: 5vw;
-}
+.trabajos {
+  margin-bottom: 20px; }
 
-.trabajos{
-    margin-bottom: 20px;
-}
+.carrusel {
+  width: 100%;
+  height: 80vh; }
 
-.carrusel{
-    width: 100%;
-    height: 80vh;
-}
-
-
-footer{
-    background-color:rgb(151, 178, 204);
-    width: 100%;
-    height: 10vh;
-}
-
-footer ul{
+footer {
+  background-color: #97b2cc;
+  width: 100%;
+  height: 10vh; }
+  footer ul {
     margin-left: 77vw;
-    margin-bottom: -80px;
-}
-footer div{
+    margin-bottom: -80px; }
+  footer div {
     margin-left: 40vw;
-    margin-top: 50px;
-}
-
+    margin-top: 50px; }
 
 /* ESTRUCTURA DE PORTAFOLIO.HTML */
-
 .EncabezadoPortafolio {
-    background-color: #c6f3f5d0;
-}
+  background-color: #c6f3f5d0; }
 
 .Direccionadores2 {
-    margin-left: 50vw;
-    
-}
-.Direccionadores2 li {
+  margin-left: 50vw; }
+  .Direccionadores2 li {
     display: inline;
     padding-left: 30px;
-    padding-top: 30px;
-}
+    padding-top: 30px; }
 
-.Carruseles{
-    width: 100%;
-    height: 100%;
-}
-
-.Carruseles img {
-    margin-left: 1vw;
-}
+.Carruseles {
+  width: 100%;
+  height: 100%; }
+  .Carruseles img {
+    margin-left: 1vw; }
 
 .linea {
-    border-top: 1px solid #b92525;
-    height: 2px;
-    padding: 0;
-    margin: 20px auto 0 auto;
-}
+  border-top: 1px solid #b92525;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
 
 .linea2 {
-    border-top: 1px solid #b92525;
-    height: 2px;
-    padding: 0;
-    margin: 20px auto 0 auto;
-}
-
+  border-top: 1px solid #b92525;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto; }
 
 /* ESTRUCTURA DE NOSOTROS.HTML */
 .Direccionadores3 {
-    margin-left: 50vw;
-    
-}
-.Direccionadores3 li {
+  margin-left: 50vw; }
+  .Direccionadores3 li {
     display: inline;
     padding-left: 30px;
-    padding-top: 30px;
-}
-.Nosotros{
-    font-size: 37px;
-    font-weight: 200;
-    background-image:url(/img/24187-naranja.jpg);
-}
+    padding-top: 30px; }
 
-.Descripcion{
-    width: 100%;
-    height: 100%;
-}
+.Nosotros {
+  font-size: 37px;
+  font-weight: 200;
+  background-image: url(/img/24187-naranja.jpg); }
+
+.Descripcion {
+  width: 100%;
+  height: 100%; }
 
 /* ESTRUCTURA DE CONTACTO.HTML */
 .Direccionadores4 {
-    margin-left: 50vw;
-    
-}
-.Direccionadores4 li {
+  margin-left: 50vw; }
+  .Direccionadores4 li {
     display: inline;
     padding-left: 30px;
-    padding-top: 30px;
-}
-
+    padding-top: 30px; }
 
 /*tengo un monitor ultrawide y estoy intentando que se desplacen los formularios
 sin la necesidad de hacerlo responsive , pero el form Consulta no queda igual*/
+.Consulta {
+  background-color: #948579;
+  height: 100%;
+  width: 95%; }
 
-.Consulta{
-    background-color: rgb(148, 133, 121) ;
-    height: 100%;
-    width: 95%;
-}
+.Contrato {
+  background-color: #948579;
+  height: 100%;
+  width: 95%; }
 
-.Contrato{
-    background-color: rgb(148, 133, 121) ;
-    height: 100%;
-    width: 95%;
-}
+td h3 {
+  margin-left: 150px; }
 
-td h3{
-    margin-left: 150px;
-}
+td form {
+  margin-left: 20px; }
 
-td form{
-    margin-left: 20px;
-}
+td button {
+  margin-left: 250px;
+  margin-top: 50px; }
 
-td button{
-    margin-left: 250px;
-    margin-top: 50px;
-}
+td p {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder; }
 
-.TituloConsulta{
-    margin-top: -250px;
-}
+.TituloConsulta {
+  margin-top: -250px; }
 
-.TituloContrato{
-    margin-top: -323px;
-    margin-bottom: 15px;
-}
-
-td p{
-    text-align: center;
-    font-style: oblique;
-    font-weight: bolder;
-}
+.TituloContrato {
+  margin-top: -323px;
+  margin-bottom: 15px; }
 
 /* ESTRUCTURA DE DONDE ESTAMOS.HTML */
 .Direccionadores5 {
-    margin-left: 50vw;
-}
-.Direccionadores5 li {
+  margin-left: 50vw; }
+  .Direccionadores5 .li {
     display: inline;
     padding-left: 30px;
-    padding-top: 30px;
-}
+    padding-top: 30px; }
 
 /*aca me paso lo mismo que en los formularios Consulta pero con la img del mapa*/
 .DondeEstamos {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
-.Video{
-    width: 100%;
-    height: 100%;
-}
+.Video {
+  width: 100%;
+  height: 100%; }
 
-.mapa{
-    width: 100%;
-    height: 100%;
-}
+.mapa {
+  width: 100%;
+  height: 100%; }
 
 /*transformacion*/
-
-.DondeEstamos p{
-    transform: translate(630px,-250px);
-}
-
+.DondeEstamos p {
+  transform: translate(630px, -250px); }
 
 /*grid*/
+#gridAreas {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
-#gridAreas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+header {
+  grid-area: cabeza;
+  padding: 15px; }
 
-header{
-    grid-area: cabeza;
-    padding: 15px;
-}
+footer {
+  grid-area: pie;
+  padding: 10px; }
 
-footer{
-    grid-area: pie;
-    padding: 10px;
-}
+main {
+  grid-area: cuerpo;
+  padding: 10px; }
 
-main{
-    grid-area: cuerpo ;
-    padding: 10px;
-}
+#cuadros {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
-#cuadros{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+.trabajos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px; }
 
-.trabajos{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 10px;
-}
+.DondeEstamos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px; }
 
-.DondeEstamos{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 10px;
-}
 /*flex*/
-
-.formularios{
-    display: inline;
-    flex-direction: column;
-    flex-wrap: row nowrap;
-}
+.formularios {
+  display: inline;
+  flex-direction: column;
+  flex-wrap: row nowrap; }
