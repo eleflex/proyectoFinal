@@ -1,4 +1,5 @@
-@media (min-width:320px){
+@media (min-width: 576px){
+
 /* ESTRUCTURA DE INDEX.HTML */
 * {
   margin: 0;
@@ -18,21 +19,13 @@ main {
   height: 100%;}
 
 .Direccionadores {
-  margin-left: 50vw; }
-  .Direccionadores li {
-    display: inline;
-    padding-left: 30px;
-    padding-top: 30px; }
-
+  margin-top: -20px ; }
 .NuestroTrabajo {
   background-color: #f8f86c;
   width: 100%; 
   height: 100% ;}
   .NuestroTrabajo td {
-    padding: 5vw; }
-
-.trabajos {
-  margin-bottom: 20px; }
+    padding: 5vw; } 
 
 .carrusel {
   width: 100%;
@@ -53,12 +46,6 @@ footer {
 .EncabezadoPortafolio {
   background-color: #c6f3f5d0; }
 
-.Carruseles {
-  width: 100%;
-  height: 100%; }
-  .Carruseles img {
-    margin-left: 1vw; }
-
 .linea {
   border-top: 1px solid #b92525;
   height: 2px;
@@ -71,21 +58,31 @@ footer {
   padding: 0;
   margin: 20px auto 0 auto; }
 
+
+.Carruseles h4{
+  background-color: rgb(155, 153, 153);
+}
 /* ESTRUCTURA DE NOSOTROS.HTML */
 
 .Nosotros {
-  font-size: 37px;
+  font-size: 27px;
   font-weight: 200;
   background-image: url(/img/24187-naranja.jpg); }
 
 .Descripcion {
   width: 100%;
-  height: 100%; }
+  height: 75vh;}
 
 /* ESTRUCTURA DE CONTACTO.HTML */
 
 /*tengo un monitor ultrawide y estoy intentando que se desplacen los formularios
 sin la necesidad de hacerlo responsive , pero el form Consulta no queda igual*/
+
+.formularios{
+  width: 100%;
+  height: 80vh;
+}
+
 .Consulta {
   background-color: #948579;
   height: 100%;
@@ -94,26 +91,23 @@ sin la necesidad de hacerlo responsive , pero el form Consulta no queda igual*/
 .Contrato {
   background-color: #948579;
   height: 100%;
-  width: 100; }
+  width: 100%; 
+  margin-left: 10px;}
+
 
 /* ESTRUCTURA DE DONDE ESTAMOS.HTML */
 
 /*aca me paso lo mismo que en los formularios Consulta pero con la img del mapa*/
 .DondeEstamos {
   width: 100%;
-  height: 100%; }
-
-.Video {
-  width: 100%;
-  height: 100%; }
-
+  height: 73vh; }
 .mapa {
   width: 100%;
   height: 100%; }
 
 /*transformacion*/
 .DondeEstamos p {
-  transform: translate(630px, -250px); }
+  transform: translate(67vh, -10vh); }
 
 /*grid*/
 #gridAreas {
