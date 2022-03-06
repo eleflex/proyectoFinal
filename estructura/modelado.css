@@ -1,4 +1,4 @@
-@media all and (min-width: 320px)
+@media all and (min-width: 720px)
 {
 /* ESTRUCTURA DE INDEX.HTML */
 * {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #c6f3f5d0;
+  background-color: #bfd9f1;
   width: 100%;
   height: auto; }
 
@@ -25,7 +25,7 @@ main {
   margin-top: -2vh ; }
   
 .NuestroTrabajo {
-  background-color: #f8f86c;
+  background-color: #b68f6f;
   width: 100%; 
   height: 100% ;}
   .NuestroTrabajo td {
@@ -36,7 +36,7 @@ main {
   height: 80vh; }
 
 footer {
-  background-color: #97b2cc;
+  background-color: #bfd9f1;
   width: 100%;
   height: auto; }
   footer ul {
@@ -61,38 +61,54 @@ footer {
 
 /* ESTRUCTURA DE PORTAFOLIO.HTML */
 
+.carousel.slide2{
+  padding: 3vh;
+}
 
 
 /* ESTRUCTURA DE NOSOTROS.HTML */
 
 .Nosotros {
-  font-size: 27px;
+  font-size: 2.7vh;
   font-weight: 500;
-  background-image: url(/img/fondomain.jpg);
-  background-repeat: no-repeat; }
+  }
 
 .Descripcion {
   width: 100%;
-  height: 80vh;}
+  height: 71.3vh;
+  background-image: url(/img/fondomain.jpg);
+  background-color: #b68f6f;
+  background-blend-mode: luminosity;
+}
 
 /* ESTRUCTURA DE CONTACTO.HTML */
 
 /*tengo un monitor ultrawide y estoy intentando que se desplacen los formularios
 sin la necesidad de hacerlo responsive , pero el form Consulta no queda igual*/
 
-
-.Consulta {
-  background-color: #948579;
+.formularios{
+  height: auto;
   width: 100%;
-  height: 80vh;
 }
+.form{width:44vh;height:55vh;padding:10%;background:#b68f6f;border-radius:0.8vh;box-shadow:0 0 4vh -1vh #000;margin:calc(50vh - 22vh) auto;padding:2vh 3vh;max-width:calc(100vw - 4vh);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
 
-.Contrato {
-  background-color: #948579; 
-  margin-left: 10px;
-  width: 100%;
-  height: 80vh;
+.contratanos {margin:1vh 0;padding-bottom:1vh;width:18vh;color:#17171a;border-bottom:0.3vh solid #17171a}
+
+.input{width:100%;padding:1vh;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:0.2vh solid #bebed2}
+
+.input:focus{border-bottom:0.2vh solid #78788c}
+
+.formrespon:before{content:attr(type);display:block;margin:2.8vh 0 0;font-size:1.4vh;color:#5a5a5a}
+
+button{float:right;padding:0.8vh 1.2vh;margin:0.8vh 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+
+.mensaje:hover{background:#78788c;color:#fff
 }
+.telefono{content:'Hi';position:absolute;bottom:-1.5vh;right:-2vh;background:#50505a;color:#fff;width:32vh;padding:1.6vh 0.4vh 1.6vh 0;border-radius:0.6vh;font-size:1.3vh;box-shadow:1vh 1vh 4vh -1.4vh #000}
+
+.span{margin:0 0.5vh 0 1.5vh}
+
+
 
 
 /* ESTRUCTURA DE DONDE ESTAMOS.HTML */
@@ -139,7 +155,6 @@ main {
 .formularios{
   display:grid;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 10px;
 }
 
 .trabajos {

@@ -34,52 +34,28 @@
         </nav>
     </header>
     <main class="formularios">
-        <table border="1" cellpadding=0 cellspacing=0 class="Consulta">
-            <td>
-                <h3 class="TituloConsulta">CONSULTA NUESTRO TRABAJO</h3>
-                <form action="">
-                    <label for="Nombre">Nombre</label><br>
-                    <input type="Nombre"><br>
-                    <label for="Apellido">Apellido</label><br>
-                    <input type="Apellido"><br>
-                    <label for="Correo Electronico">Correo Electronico</label><br>
-                    <input type="Correo Electronico"><br>
-                    <label for="Indique su consulta aqui:">Indique su consulta aqui:</label><br>
-                    <textarea name="Indique su consulta aqui:" id="" cols="30" rows="10"></textarea><br><br>
-                </form>
-                <button>Enviar</button><br>
-            </td>
-        </table>
-        <table border="1" cellpadding=0 cellspacing=0 class="Contrato">
-            <td>
-                <h3 class="TituloContrato">CONTRATA NUESTRO SERVICIO</h3>
-                <form action="">
-                    <select name="Elija su servicio" id="Elija el serivicio deseado">
-                        <option value="0">Elija el servicio deseado</option>
-                        <option value="1">Community Manager</option>
-                        <option value="2">Desarrollo Web</option>
-                        <option value="3">Produccion Audiovisual</option>
-                        <option value="4">Fotografia</option>
-                        <option value="5">Capacitacion para Community manager</option>
-                        <option value="6">Capacitacion para administracion de web</option>
-                    </select><br><br>
-                    <select name="Elija su metodo de pago" id="Elija su metodo de pago">
-                        <option value="7">Elija su metodo de pago</option>
-                        <option value="8">Tarjeta de credito</option>
-                        <option value="9">Tarjeta de debito</option>
-                        <option value="10">Mercado pago</option>
-                        <option value="11">Transferencia bancaria</option>
-                        <option value="12">Efectivo</option>
-                    </select><br><br>
-                    <label for="Numero de celular">Numero de celular</label><br>
-                    <input type="Numero de celular"><br><br>
-                </form>
-                <button>Enviar</button><br><br><br>
-                <P>
-                    NOS COMUNICAREMOS CON USTED DENTRO DE LAS PROXIMAS 48 HORAS HÁBILES PARA VALIDAR DATOS. MUCHAS GRACIAS POR ELEGIRNOS
-                </P>
-            </td>
-        </table>
+        <form class="form">
+            <h2 class="contratanos">CONTACTANOS</h2>
+            <p type="Name:" class="formrespon"><input placeholder="Escribe tu nombre aqui.."></input></p>
+            <p type="Email:" class="formrespon"><input placeholder="Escribe tu correo electronico"></input></p>
+            <p type="Message:" class="formrespon"><input placeholder="Dejanos tu consulta aqui"></input></p>
+            <button class="mensaje">Enviar mensaje</button>
+            <div class="telefono">
+              <span class="fa fa-phone"></span>3517434000
+              <span class="fa fa-envelope-o"></span> leandro6.frontdevelop@gmail.com
+            </div>
+          </form>
+        <form class="form">
+            <h2 class="contratanos">CONTRATANOS</h2>
+            <p type="Name:" class="formrespon"><input placeholder="Escribe tu nombre aqui.."></input></p>
+            <p type="Email:" class="formrespon"><input placeholder="Como podemos contactarte..."></input></p>
+            <p type="Message:" class="formrespon"><input placeholder="Que servicios quieres comprar"></input></p>
+            <button class="mensaje">Solicitar</button>
+            <div class="telefono">
+              <span class="fa fa-phone"></span>3517434000
+              <span class="fa fa-envelope-o"></span> leandro6.frontdevelop@gmail.com
+            </div>
+          </form>
     </main>
 
     <footer>
